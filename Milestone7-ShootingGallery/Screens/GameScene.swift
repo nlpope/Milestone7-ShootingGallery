@@ -39,7 +39,11 @@ class GameScene: SKScene
     
     func configureWorld()
     {
-        let background  = SKSpriteNode(imageNamed: "cameltoe")
+        let background          = SKSpriteNode(imageNamed: EnvironmentImageKeys.woodenBackground)
+        background.position     = CGPoint(x: 512, y: 384)
+        background.blendMode    = .replace
+        background.zPosition    = -1
+        addChild(background)
     }
     
     

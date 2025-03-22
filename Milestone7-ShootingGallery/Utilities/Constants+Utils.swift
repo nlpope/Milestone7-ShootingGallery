@@ -6,27 +6,31 @@ import Foundation
 
 enum EnvironmentImageKeys
 {
-    static let background       = "wood-background"
-    static let curtains         = "curtains"
+    static let woodenBackground = "wood-background"
     static let grassAndTrees    = "grass-trees"
     static let waterBackground  = "water-bg"
     static let waterForeground  = "water-fg"
-    static let gameOver         = "game-over"
-    
+    static let curtains         = "curtains"
     
     static let cursor           = "cursor"
     static let zeroBullets      = "shots0"
     static let oneBullet        = "shots1"
     static let twoBullets       = "shots2"
     static let threeBullets     = "shots3"
+    
+    static let gameOver         = "game-over"
 }
 
-enum DuckImageKeys
+enum TargetImageKeys
 {
-    static let target           = "target0"
+    static let plainTarget      = "target0"
     static let goodDuck1        = "target1"
     static let goodDuck2        = "target2"
     static let badDuck1         = "target3"
+    
+    static let plainTargetStick = "stick1"
+    static let goodDuckStick    = "stick0"
+    static let badDuckStick     = "stick2"
 }
 
 enum SoundKeys
