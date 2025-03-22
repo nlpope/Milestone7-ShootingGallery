@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		40B573372D8EFAE6008823B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B573152D8EFADF008823B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40B5731C2D8EFADF008823B8;
+			remoteInfo = "Milestone7-ShootingGallery";
+		};
+		40B573412D8EFAE6008823B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B573152D8EFADF008823B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40B5731C2D8EFADF008823B8;
+			remoteInfo = "Milestone7-ShootingGallery";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40B5731D2D8EFADF008823B8 /* Milestone7-ShootingGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Milestone7-ShootingGallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B573362D8EFAE6008823B8 /* Milestone7-ShootingGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Milestone7-ShootingGalleryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B573402D8EFAE6008823B8 /* Milestone7-ShootingGalleryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Milestone7-ShootingGalleryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		40B5731F2D8EFADF008823B8 /* Milestone7-ShootingGallery */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Milestone7-ShootingGallery";
+			sourceTree = "<group>";
+		};
+		40B573392D8EFAE6008823B8 /* Milestone7-ShootingGalleryTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Milestone7-ShootingGalleryTests";
+			sourceTree = "<group>";
+		};
+		40B573432D8EFAE6008823B8 /* Milestone7-ShootingGalleryUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Milestone7-ShootingGalleryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40B5731A2D8EFADF008823B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B573332D8EFAE6008823B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B5733D2D8EFAE6008823B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40B573142D8EFADF008823B8 = {
+			isa = PBXGroup;
+			children = (
+				40B5731F2D8EFADF008823B8 /* Milestone7-ShootingGallery */,
+				40B573392D8EFAE6008823B8 /* Milestone7-ShootingGalleryTests */,
+				40B573432D8EFAE6008823B8 /* Milestone7-ShootingGalleryUITests */,
+				40B5731E2D8EFADF008823B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40B5731E2D8EFADF008823B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40B5731D2D8EFADF008823B8 /* Milestone7-ShootingGallery.app */,
+				40B573362D8EFAE6008823B8 /* Milestone7-ShootingGalleryTests.xctest */,
+				40B573402D8EFAE6008823B8 /* Milestone7-ShootingGalleryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40B5731C2D8EFADF008823B8 /* Milestone7-ShootingGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B5734A2D8EFAE6008823B8 /* Build configuration list for PBXNativeTarget "Milestone7-ShootingGallery" */;
+			buildPhases = (
+				40B573192D8EFADF008823B8 /* Sources */,
+				40B5731A2D8EFADF008823B8 /* Frameworks */,
+				40B5731B2D8EFADF008823B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				40B5731F2D8EFADF008823B8 /* Milestone7-ShootingGallery */,
+			);
+			name = "Milestone7-ShootingGallery";
+			packageProductDependencies = (
+			);
+			productName = "Milestone7-ShootingGallery";
+			productReference = 40B5731D2D8EFADF008823B8 /* Milestone7-ShootingGallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40B573352D8EFAE6008823B8 /* Milestone7-ShootingGalleryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B5734D2D8EFAE6008823B8 /* Build configuration list for PBXNativeTarget "Milestone7-ShootingGalleryTests" */;
+			buildPhases = (
+				40B573322D8EFAE6008823B8 /* Sources */,
+				40B573332D8EFAE6008823B8 /* Frameworks */,
+				40B573342D8EFAE6008823B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40B573382D8EFAE6008823B8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				40B573392D8EFAE6008823B8 /* Milestone7-ShootingGalleryTests */,
+			);
+			name = "Milestone7-ShootingGalleryTests";
+			packageProductDependencies = (
+			);
+			productName = "Milestone7-ShootingGalleryTests";
+			productReference = 40B573362D8EFAE6008823B8 /* Milestone7-ShootingGalleryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40B5733F2D8EFAE6008823B8 /* Milestone7-ShootingGalleryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B573502D8EFAE6008823B8 /* Build configuration list for PBXNativeTarget "Milestone7-ShootingGalleryUITests" */;
+			buildPhases = (
+				40B5733C2D8EFAE6008823B8 /* Sources */,
+				40B5733D2D8EFAE6008823B8 /* Frameworks */,
+				40B5733E2D8EFAE6008823B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40B573422D8EFAE6008823B8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				40B573432D8EFAE6008823B8 /* Milestone7-ShootingGalleryUITests */,
+			);
+			name = "Milestone7-ShootingGalleryUITests";
+			packageProductDependencies = (
+			);
+			productName = "Milestone7-ShootingGalleryUITests";
+			productReference = 40B573402D8EFAE6008823B8 /* Milestone7-ShootingGalleryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40B573152D8EFADF008823B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					40B5731C2D8EFADF008823B8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					40B573352D8EFAE6008823B8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 40B5731C2D8EFADF008823B8;
+					};
+					40B5733F2D8EFAE6008823B8 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 40B5731C2D8EFADF008823B8;
+					};
+				};
+			};
+			buildConfigurationList = 40B573182D8EFADF008823B8 /* Build configuration list for PBXProject "Milestone7-ShootingGallery" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40B573142D8EFADF008823B8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 40B5731E2D8EFADF008823B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40B5731C2D8EFADF008823B8 /* Milestone7-ShootingGallery */,
+				40B573352D8EFAE6008823B8 /* Milestone7-ShootingGalleryTests */,
+				40B5733F2D8EFAE6008823B8 /* Milestone7-ShootingGalleryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40B5731B2D8EFADF008823B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B573342D8EFAE6008823B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B5733E2D8EFAE6008823B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40B573192D8EFADF008823B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B573322D8EFAE6008823B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B5733C2D8EFAE6008823B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40B573382D8EFAE6008823B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40B5731C2D8EFADF008823B8 /* Milestone7-ShootingGallery */;
+			targetProxy = 40B573372D8EFAE6008823B8 /* PBXContainerItemProxy */;
+		};
+		40B573422D8EFAE6008823B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40B5731C2D8EFADF008823B8 /* Milestone7-ShootingGallery */;
+			targetProxy = 40B573412D8EFAE6008823B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40B573482D8EFAE6008823B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40B573492D8EFAE6008823B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40B5734B2D8EFAE6008823B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9MT23QW7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "noahpope.Milestone7-ShootingGallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40B5734C2D8EFAE6008823B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9MT23QW7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "noahpope.Milestone7-ShootingGallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40B5734E2D8EFAE6008823B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9MT23QW7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "noahpope.Milestone7-ShootingGalleryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milestone7-ShootingGallery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Milestone7-ShootingGallery";
+			};
+			name = Debug;
+		};
+		40B5734F2D8EFAE6008823B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9MT23QW7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "noahpope.Milestone7-ShootingGalleryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Milestone7-ShootingGallery.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Milestone7-ShootingGallery";
+			};
+			name = Release;
+		};
+		40B573512D8EFAE6008823B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9MT23QW7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "noahpope.Milestone7-ShootingGalleryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Milestone7-ShootingGallery";
+			};
+			name = Debug;
+		};
+		40B573522D8EFAE6008823B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M9MT23QW7V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "noahpope.Milestone7-ShootingGalleryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Milestone7-ShootingGallery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40B573182D8EFADF008823B8 /* Build configuration list for PBXProject "Milestone7-ShootingGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B573482D8EFAE6008823B8 /* Debug */,
+				40B573492D8EFAE6008823B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B5734A2D8EFAE6008823B8 /* Build configuration list for PBXNativeTarget "Milestone7-ShootingGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B5734B2D8EFAE6008823B8 /* Debug */,
+				40B5734C2D8EFAE6008823B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B5734D2D8EFAE6008823B8 /* Build configuration list for PBXNativeTarget "Milestone7-ShootingGalleryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B5734E2D8EFAE6008823B8 /* Debug */,
+				40B5734F2D8EFAE6008823B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B573502D8EFAE6008823B8 /* Build configuration list for PBXNativeTarget "Milestone7-ShootingGalleryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B573512D8EFAE6008823B8 /* Debug */,
+				40B573522D8EFAE6008823B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40B573152D8EFADF008823B8 /* Project object */;
+}
