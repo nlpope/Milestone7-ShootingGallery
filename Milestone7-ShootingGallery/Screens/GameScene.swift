@@ -39,7 +39,7 @@ class GameScene: SKScene
     
     func configureWorld()
     {
-        
+        let background  = SKSpriteNode(imageNamed: "cameltoe")
     }
     
     
