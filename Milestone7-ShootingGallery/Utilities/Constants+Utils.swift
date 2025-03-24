@@ -39,3 +39,8 @@ enum SoundKeys
     static let outOfAmmo        = "empty"
     static let reload           = "reload"
 }
+
+enum FontKeys
+{
+    static let chalkduster      = "Chalkduster"
+}

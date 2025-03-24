@@ -16,9 +16,10 @@ class GameScene: SKScene
     var badDuck: SKSpriteNode!
     var duckTypes   = [String]()
     var activeDucks = [SKSpriteNode]()
-    var livesImages = [SKSpriteNode]()
+    var ammo        = [SKSpriteNode]()
     var isGameEnded = false
     var burnItAll   = false
+    var timer       = time
     var lives       = 3 {
         didSet { if lives == 0 { endGame(triggeredByBadDuck: false) } }
     }
@@ -36,20 +37,47 @@ class GameScene: SKScene
         configureLives()
     }
     
+    /**
+     exclude the .blendmode = .replace on everything that lays over your furthest background
+     ... only relying on the zposition to push them above the bg
+     ... vice versa, exclude the zposition on your furthest back bg
+     ... keep in mind the auto zposition of your '.replace' furthest bg = 0 so start the overlays @ 1
+     */
     
     func configureWorld()
     {
-        let background          = SKSpriteNode(imageNamed: EnvironmentImageKeys.woodenBackground)
-        background.position     = CGPoint(x: 512, y: 384)
-        background.blendMode    = .replace
-        background.zPosition    = -1
-        addChild(background)
+        let woodenBg            = SKSpriteNode(imageNamed: EnvironmentImageKeys.woodenBackground)
+        woodenBg.position       = CGPoint(x: 512, y: 384)
+        woodenBg.blendMode      = .replace
+        addChild(woodenBg)
+        
+        let grassAndTrees       = SKSpriteNode(imageNamed: EnvironmentImageKeys.grassAndTrees)
+        grassAndTrees.position  = CGPoint(x: 512, y: 384)
+        grassAndTrees.zPosition = 1
+        addChild(grassAndTrees)
+
+        
+        let curtains            = SKSpriteNode(imageNamed: EnvironmentImageKeys.curtains)
+        curtains.position       = CGPoint(x: 512, y: 384)
+        curtains.zPosition      = 2
+        addChild(curtains)
+    }
+    
+    
+    func configureWater()
+    {
+        
     }
     
     
     func configureScore()
     {
-        
+        gameScore                           = SKLabelNode(fontNamed: FontKeys.chalkduster)
+        gameScore.horizontalAlignmentMode   = .left
+        gameScore.fontSize                  = 48
+        gameScore.position                  = CGPoint(x: 8, y: 8)
+        score                               = 0
+        addChild(gameScore)
     }
     
     
