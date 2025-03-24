@@ -49,17 +49,20 @@ class GameScene: SKScene
         let woodenBg            = SKSpriteNode(imageNamed: EnvironmentImageKeys.woodenBackground)
         woodenBg.position       = CGPoint(x: 512, y: 384)
         woodenBg.blendMode      = .replace
+//        woodenBg.size   = CGSize(width: frame.maxX, height: frame.maxY)
         addChild(woodenBg)
         
         let grassAndTrees       = SKSpriteNode(imageNamed: EnvironmentImageKeys.grassAndTrees)
         grassAndTrees.position  = CGPoint(x: 512, y: 384)
         grassAndTrees.zPosition = 1
+//        grassAndTrees.size   = CGSize(width: frame.maxX, height: frame.maxY)
         addChild(grassAndTrees)
 
         
         let curtains            = SKSpriteNode(imageNamed: EnvironmentImageKeys.curtains)
         curtains.position       = CGPoint(x: 512, y: 384)
         curtains.zPosition      = 2
+//        curtains.size   = CGSize(width: frame.maxX, height: frame.maxY)
         addChild(curtains)
     }
     
@@ -76,6 +79,7 @@ class GameScene: SKScene
         gameScore.horizontalAlignmentMode   = .left
         gameScore.fontSize                  = 48
         gameScore.position                  = CGPoint(x: 8, y: 8)
+        gameScore.zPosition                 = 100
         score                               = 0
         addChild(gameScore)
     }
